@@ -1,0 +1,54 @@
+
+body {
+    background-color: #5f1016;
+}
+
+.buttonDrink,
+.buttonVal,
+.buttonTijd {
+    border-radius: 60px;
+    margin: 30px;
+    opacity: 0.8;
+    width: 7em;
+}
+
+
+
+.buttonDrink:hover,
+.buttonVal:hover,
+.buttonTijd:hover {
+    border: 8px;
+    border-color: #010101;
+    border-radius: 90px;
+    border-style: solid;
+    opacity: 2;
+}
+
+
+section div {
+    /*position: flex;*/
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    bottom: 16%;
+    position: absolute;
+    text-align: center;
+}
+
+
+.idlestate {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+footer p {
+    color: #CECECE;
+    font-family: 'Alfa Slab One';
+    font-size: 9px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
